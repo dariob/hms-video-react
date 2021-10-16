@@ -67,17 +67,17 @@ export const PostLeaveDisplay: React.FC<Props> = ({
             <SunWithFace />
           </div>
           <Text tag="h1" variant="heading">
-            You left the room
+            Hai lasciato la stanza
           </Text>
           <Text tag="h1" variant="heading">
-            Have a nice day {username} !
+            A presto {username} !
           </Text>
           <div className={styler('divider')}></div>
           <div className={styler('buttonWrapper')}>
             <Button variant="emphasized" onClick={joinRoomOnClick}>
-              Join Again
+              Rientra
             </Button>
-            <Button onClick={goToDashboardOnClick}>Go to Dashboard</Button>
+            <Button onClick={goToDashboardOnClick}>Vai alla Dashboard</Button>
           </div>
         </div>
       </div>
